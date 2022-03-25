@@ -1,0 +1,19 @@
+/* Created by: Katie
+* Created on: March 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-03-UserInput
+*/
+
+h1 {
+  background-color: peru;
+  color: rgb(51, 9, 7);
+  padding: 50px;
+}
+
+p {
+  color: rgb(51, 9, 7);
+}
+
+body {
+  background-color: silver;
+}

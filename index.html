@@ -8,10 +8,54 @@
     <meta name="author" content="Katie G">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css"> 
-    <title></title>
+    <title>Tell me all about yourself :)</title>
     
     <!-- For the Favicon on this page -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
     <link rel="manifest" href="./fav/site.webmanifest">
+  </head>
+  <body>
+    <h1>Tell me all about yourself :)</h1>
+    <p>hihi tell me all about yourself :) im a curious little child :) you can trust me i swear :)</p>
+    <p>
+      <!-- Input fields for user information -->
+      <script src="./js/script.js"></script>
+      <form action="javascript:submitClicked()">
+        <label for="fname">Full Name</label>
+        <input type="text" id="full-name" placeholder="Full Name :)">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="user-age" placeholder="Age :)">
+        <br>
+        <br>
+        <label for="anumber">Address Number</label>
+        <input type="number" id="address-number" placeholder="Address # :)">
+        <br>
+        <br>
+        <label for="astreet">Street Name</label>
+        <input type="text" id="user-address" placeholder="Street :)">
+        <br>
+        <br>
+        <label for="sibcount">No. Of Siblings</label>
+        <input type="number" id="number-siblings" placeholder="Sibling ? :)">
+        <br>
+        <br>
+        <label for="govidnum">The funky little number that the government knows you as </label>
+        <input type="number" id="gov-number" placeholder="Government # :)">
+        <br>
+        <br>
+        <label for="spousename">Spouse's Name</label>
+        <input type="text" id="spouse-name" placeholder="Spouse Name :)">
+        <br>
+        <br>
+        <input type="submit" value="send information :)">
+      </form>
+    </p>
+
+    <!-- User Information Display Function -->
+    <div id="submitted-info"></div>
+  </body>
+</html>
